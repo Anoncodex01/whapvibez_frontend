@@ -353,7 +353,86 @@ export default function Home() {
       </section>
 
       {/* ==========================================
-          SECTION 2: FEATURES (ONE-TICK SCROLL)
+          SECTION 2: ABOUT NEXVIBE & FOUNDER
+      ========================================== */}
+      <section className="w-full max-w-6xl mx-auto px-6 pb-20 relative z-30">
+        <div className="relative w-full rounded-[2rem] md:rounded-[2.5rem] bg-white/80 backdrop-blur-xl border border-gray-100 shadow-[0_18px_60px_rgba(0,0,0,0.06)] overflow-hidden">
+          <div className="absolute inset-y-0 right-[-30%] w-[60%] bg-gradient-to-br from-primary/10 via-secondary/5 to-transparent blur-3xl pointer-events-none" />
+
+          <div className="relative grid grid-cols-1 md:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] gap-10 md:gap-12 p-6 sm:p-10 md:p-12">
+            <div>
+              <p className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 text-primary text-[11px] font-extrabold tracking-[0.16em] uppercase mb-3">
+                About NEXVIBE LTD
+              </p>
+              <h2 className="text-2xl sm:text-3xl md:text-[2.1rem] font-black text-gray-900 tracking-tight mb-4">
+                Building platforms for{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+                  creators &amp; opportunity.
+                </span>
+              </h2>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                NEXVIBE LTD is a technology company focused on building innovative digital platforms
+                that connect people, empower creators, and expand opportunities in the digital
+                economy.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                The company is the owner of WhapVibez, a modern platform that brings together
+                short‑form video content, communities, live experiences, and real‑time interaction
+                in one ecosystem.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                With features like Marketplace, Live Shopping, and Nearby Connect, users can
+                discover businesses, sell products, interact with communities, and connect with
+                opportunities around them.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                Through continuous innovation, NEXVIBE LTD aims to support creators, businesses, and
+                everyday users while expanding digital opportunities across Africa and globally.
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-between gap-6 md:gap-8">
+              <div className="border border-gray-100 rounded-2xl bg-gray-50/60 p-5 sm:p-6">
+                <p className="text-[11px] font-extrabold tracking-[0.16em] text-gray-500 uppercase mb-2">
+                  Founder &amp; Vision
+                </p>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1">
+                  Araphath Kasimu Mruma
+                </h3>
+                <p className="text-xs text-gray-500 mb-3">
+                  Founder &amp; Owner, NEXVIBE LTD • Kilimanjaro, Tanzania
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                  Araphath is an entrepreneur with a strong interest in technology, digital
+                  innovation, and building platforms that create opportunities in the digital world.
+                  He is the visionary behind WhapVibez, designed to bring together social
+                  interaction, digital content, marketplace opportunities, and modern online
+                  experiences in one ecosystem.
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Through NEXVIBE LTD, he continues to focus on developing and growing digital
+                  platforms with the potential to reach users across Africa and beyond.
+                </p>
+              </div>
+
+              <div className="relative border border-gray-100 rounded-2xl bg-white p-5 sm:p-6 flex flex-col gap-3">
+                <div className="absolute -top-6 -left-4 text-gray-100">
+                  <Quote className="w-14 h-14" />
+                </div>
+                <p className="text-sm sm:text-base text-gray-900 font-medium leading-relaxed">
+                  “Technology should not only connect people, it should also create opportunities.”
+                </p>
+                <p className="text-xs sm:text-sm text-gray-500 font-semibold">
+                  — Araphath Kasimu Mruma
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ==========================================
+          SECTION 3: FEATURES (ONE-TICK SCROLL)
       ========================================== */}
       <section ref={containerRef} id="features" className="relative w-full h-[500vh] z-20">
         <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
@@ -432,7 +511,7 @@ export default function Home() {
       </section>
 
       {/* ==========================================
-          SECTION 3: TESTIMONIALS & STATS
+          SECTION 3: TESTIMONIALS
       ========================================== */}
       <section id="testimonials" className="w-full relative z-30 pt-10 pb-32 overflow-hidden">
         
@@ -508,7 +587,86 @@ export default function Home() {
       </section>
 
       {/* ==========================================
-          SECTION 4: FAQ (HOMEPAGE)
+          SECTION 4: ABOUT NEXVIBE & FOUNDER
+      ========================================== */}
+      <section className="w-full max-w-6xl mx-auto px-6 pb-20 relative z-30">
+        <div className="relative w-full rounded-[2rem] md:rounded-[2.5rem] bg-white/80 backdrop-blur-xl border border-gray-100 shadow-[0_18px_60px_rgba(0,0,0,0.06)] overflow-hidden">
+          <div className="absolute inset-y-0 right-[-30%] w-[60%] bg-gradient-to-br from-primary/10 via-secondary/5 to-transparent blur-3xl pointer-events-none" />
+
+          <div className="relative grid grid-cols-1 md:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] gap-10 md:gap-12 p-6 sm:p-10 md:p-12">
+            <div>
+              <p className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 text-primary text-[11px] font-extrabold tracking-[0.16em] uppercase mb-3">
+                About NEXVIBE LTD
+              </p>
+              <h2 className="text-2xl sm:text-3xl md:text-[2.1rem] font-black text-gray-900 tracking-tight mb-4">
+                Building platforms for{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+                  creators &amp; opportunity.
+                </span>
+              </h2>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                NEXVIBE LTD is a technology company focused on building innovative digital platforms
+                that connect people, empower creators, and expand opportunities in the digital
+                economy.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                The company is the owner of WhapVibez, a modern platform that brings together
+                short‑form video content, communities, live experiences, and real‑time interaction
+                in one ecosystem.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-3">
+                With features like Marketplace, Live Shopping, and Nearby Connect, users can
+                discover businesses, sell products, interact with communities, and connect with
+                opportunities around them.
+              </p>
+              <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                Through continuous innovation, NEXVIBE LTD aims to support creators, businesses, and
+                everyday users while expanding digital opportunities across Africa and globally.
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-between gap-6 md:gap-8">
+              <div className="border border-gray-100 rounded-2xl bg-gray-50/60 p-5 sm:p-6">
+                <p className="text-[11px] font-extrabold tracking-[0.16em] text-gray-500 uppercase mb-2">
+                  Founder &amp; Vision
+                </p>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1">
+                  Araphath Kasimu Mruma
+                </h3>
+                <p className="text-xs text-gray-500 mb-3">
+                  Founder &amp; Owner, NEXVIBE LTD • Kilimanjaro, Tanzania
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                  Araphath is an entrepreneur with a strong interest in technology, digital
+                  innovation, and building platforms that create opportunities in the digital world.
+                  He is the visionary behind WhapVibez, designed to bring together social
+                  interaction, digital content, marketplace opportunities, and modern online
+                  experiences in one ecosystem.
+                </p>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  Through NEXVIBE LTD, he continues to focus on developing and growing digital
+                  platforms with the potential to reach users across Africa and beyond.
+                </p>
+              </div>
+
+              <div className="relative border border-gray-100 rounded-2xl bg-white p-5 sm:p-6 flex flex-col gap-3">
+                <div className="absolute -top-6 -left-4 text-gray-100">
+                  <Quote className="w-14 h-14" />
+                </div>
+                <p className="text-sm sm:text-base text-gray-900 font-medium leading-relaxed">
+                  “Technology should not only connect people, it should also create opportunities.”
+                </p>
+                <p className="text-xs sm:text-sm text-gray-500 font-semibold">
+                  — Araphath Kasimu Mruma
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ==========================================
+          SECTION 5: FAQ (HOMEPAGE)
       ========================================== */}
       <section id="faq" className="w-full max-w-5xl mx-auto px-6 pb-16 relative z-30">
         <div className="max-w-2xl mx-auto text-center mb-8">
@@ -547,7 +705,7 @@ export default function Home() {
       </section>
 
       {/* ==========================================
-          SECTION 5: CTA (GET STARTED)
+          SECTION 6: CTA (GET STARTED)
       ========================================== */}
       <section id="download" className="w-full max-w-6xl mx-auto px-4 sm:px-6 pb-20 relative z-30">
         <div className="relative w-full rounded-[2rem] md:rounded-[3rem] bg-gradient-to-br from-primary to-secondary overflow-hidden shadow-2xl flex flex-col md:flex-row items-center justify-between px-6 sm:px-10 md:px-16 pt-10 md:pt-12 pb-0">
